@@ -1,0 +1,123 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      .div1 {
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+      }
+
+      .div2 {
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h2>Letras</h2>
+      <div class="div1"><p id="p"></p></div>
+      <h2>Numeros</h2>
+      <div class="div2"><p id="p2"></p></div>
+
+      <table>
+        <tr>
+          <th>
+            <button id="btn_a1" onclick="func_a1()" type="button">A/1</button>
+          </th>
+          <th><button type="button" onclick="func_b2()">B/2</button></th>
+          <th><button type="button" onclick="func_c3()">C/3</button></th>
+        </tr>
+
+        <tr>
+          <th><button type="button" onclick="func_d4()">D/4</button></th>
+          <th><button type="button" onclick="func_e5()">E/5</button></th>
+          <th><button type="button" onclick="func_f6()">F/6</button></th>
+        </tr>
+        <tr>
+          <th><button type="button" onclick="func_g7()">G/7</button></th>
+          <th><button type="button" onclick="func_h8()">H/8</button></th>
+          <th><button type="button" onclick="func_i9()">I/9</button></th>
+        </tr>
+        <tr>
+          <th></th>
+          <th><button type="button" onclick="func_j10()">J/10</button></th>
+          <th></th>
+        </tr>
+      </table>
+    </center>
+
+    <script>
+      function func_a1() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("A");
+        t.appendChild(y);
+      }
+
+      function func_b2() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("B");
+        t.appendChild(y);
+      }
+
+      function func_c3() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("C");
+        t.appendChild(y);
+      }
+
+      function func_d4() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("D");
+        t.appendChild(y);
+      }
+
+      function func_e5() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("E");
+        t.appendChild(y);
+      }
+
+      function func_f6() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("F");
+        t.appendChild(y);
+      }
+
+      function func_g7() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("G");
+        t.appendChild(y);
+      }
+
+      function func_h8() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("H");
+        t.appendChild(y);
+      }
+
+      function func_i9() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("9");
+        t.appendChild(y);
+      }
+
+      function func_j10() {
+        var t = document.getElementById("p");
+        var y = document.createTextNode("J");
+        t.appendChild(y);
+      }
+
+      /*var t = document.getElementById("p");
+      var y = document.createTextNode("This just got added");
+      t.appendChild(y);*/
+    </script>
+  </body>
+</html>
